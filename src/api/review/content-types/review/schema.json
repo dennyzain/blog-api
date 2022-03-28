@@ -40,6 +40,16 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "content_img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }
