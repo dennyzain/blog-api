@@ -17,12 +17,6 @@
       "required": true,
       "unique": true
     },
-    "rating": {
-      "type": "integer",
-      "required": true,
-      "max": 10,
-      "min": 1
-    },
     "body": {
       "type": "richtext",
       "required": true
@@ -42,14 +36,15 @@
       ]
     },
     "content_img": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

@@ -20,6 +20,12 @@
       "relation": "manyToMany",
       "target": "api::review.review",
       "mappedBy": "categories"
+    },
+    "projects": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::project.project",
+      "inversedBy": "categories"
     }
   }
 }
